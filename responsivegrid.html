@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive grid layout</title>
+    <style>
+        body{
+            margin:auto;
+            padding:0%;
+            margin: auto;
+            background-color:rgb(254, 250, 233);
+        }
+        .container{
+            display:flex;
+            padding: 20px;
+            flex-direction: column;
+            gap:15px;
+        }
+        .box{
+            background-color: rgb(83, 83, 81);
+            border-radius: 8px;
+            font-weight: bold;
+            text-align: center;
+            font-size: medium;
+            padding: 50px;
+        }
+        box1{
+            background-color: blanchedalmond;
+            border:0cap;
+            font-weight:bold;
+            font-size: small;
+
+        }
+        main{
+            width: 1200px;
+            height:auto;
+            background-color: antiquewhite;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 100px 120px 200px 420px 80px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Logo</div>
+        <div class="box">Header</div>
+        <div class="box">TextArea</div>
+        <div class="box1">box1</div>
+        <div class="main"></div>
+        </div>
+    
+</body>
+</html>
